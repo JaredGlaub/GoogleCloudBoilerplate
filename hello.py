@@ -1,2 +1,9 @@
+import json
+
 def hi():
-    return "hi"
+
+    value = {
+        "response1": "hi",
+        "response2": "hello"
+    }
+    return json.dumps(value)
