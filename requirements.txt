@@ -1,3 +1,5 @@
 pylint
 pytest
 black
+Flask
+google-cloud-bigquery[bqstorage,pandas]
